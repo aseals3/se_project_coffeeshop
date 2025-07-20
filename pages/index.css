@@ -13,10 +13,10 @@
     background-image: url(../images/background_header.svg);
     height: 800px;
     position: relative;
-    display: column;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
-    display:block;
+    display: flex;
 }
 
 
@@ -67,17 +67,14 @@
     right: 5px;
     width: 646px;
     height: 568px;
-    object-fit: cover;
+    
 }
 
 .header__footer{
     margin-top: auto;
-    display: flex-box;
-    position: relative;
-    align-items: flex-end;
-    height: 40vh;
+    display:flex;
     justify-content: space-between;
-    flex-direction: row;
+    align-items: flex-end;;
     
 }
 
@@ -102,16 +99,18 @@
    width: 105px;
    height: 39px;
    position: relative;
-   left: 3px;
-   top: -10px;
+   left: -50px;
+   top: 0px;
+   padding : 0;
+   margin: 0;
 }
   
 .nav__links{
     display: flex;
     gap: 20px;
-    list-style: none;
-    padding: 0%;
-    margin: 0%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav__link{
@@ -124,4 +123,33 @@
     color: #000;
     top: 30px;
     right:80px;
+}
+
+.recipes__videos{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.recipes{
+    color: white;
+    background-color: #0a2750;
+    padding: 100px 80px 215px;
+    background-image:url(../images/background_recipes.svg);
+}
+
+.recipes__title{
+    margin: 0 0 24px;
+}
+
+.recipes__subtitle{
+    margin: 0 0 80px;
+    
+}
+
+.recipes__video-caption{
+    display: flex;
+    justify-content: space-between;
 }
