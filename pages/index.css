@@ -1,236 +1,24 @@
-.page{
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: Inter, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-}
+ @import url(../normalize.css);
+ 
+ @import url(../blocks/page.css);
 
-.header{
-    padding: 30px 80px 40px;
-    background-color: #fff;
-    background-image: url(../images/background_header.svg);
-    height: 800px;
-    position: relative;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-}
+ @import url(../blocks/header.css);
 
+ @import url(../blocks/reservation.css);
 
-.header__title{
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;  
-    font-size: 60px;
-    line-height: 72px;
-    letter-spacing: -0.6px;
-    margin: 183px 0 0;
-    max-width: 729px;
-}
+ @import url(../blocks/recipes.css);
 
-.header__span-accent{
-    display: block;
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 60px;  
-    line-height: 72px;
-    color: #3F96F3;
-}
+ @import url(../blocks/nav.css);
 
-.header__description{
-    font-family: "Noto Serif","Times New Roman", serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 28px 0 0;
-    max-width: 683px;
-}
+ @import url(../blocks/form.css);
 
-.header__paragraph{
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #6f6f6f;
-    margin: 0;
-}
+ @import url(../blocks/menu.css);
 
-.header__image{
-    position: absolute;
-    top: 124px;
-    right: 5px;
-    width: 646px;
-    height: 568px;
-    
-}
+ @import url(../blocks/card.css);
 
-.header__footer{
-    margin-top: auto;
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    
-}
-
-.header__footer-right{
-    bottom: 40px;
-    left: 80px;
-    position: absolute;
-}
-
-.header__footer-right{
-    bottom: 40px;
-    right: 80px;
-    position:absolute
-}
-
-.nav{
-    display:flex;
-    justify-content: space-between;
-}
-
-.nav__logo{
-   width: 105px;
-   height: 39px;
-   position: relative;
-   left: -50px;
-   top: 0px;
-   padding : 0;
-   margin: 0;
-}
-  
-.nav__links{
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav__link{
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #000;
-    top: 30px;
-    right:80px;
-}
-
-.recipes__videos{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    list-style: none;
-    
-}
-
-.recipes{
-    color: white;
-    background-color: #0a2750;
-    padding: 100px 80px 215px;
-    background-image:url(../images/background_recipes.svg);
-}
-
-.recipes__title{
-    margin: 0 0 24px;
-}
-
-.recipes__subtitle{
-    margin: 0 0 80px;
-    
-}
-
-.recipes__video-caption{
-    display: flex;
-    justify-content: space-between;
-}
-
-.reservation{
-    padding: 100px 0px 120px;
-    background-color: #D9E7FF;
-    background-image: url(../images/background_reservation.svg);
-}
-
-.reservation__title{
-    margin: 0 0 80px;
-    text-align: center;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-}
-.reservation__form{
-    margin: 0 auto;
-}
-
-.form{
-    max-width: 385px;
-}
-
-.form__input{
-    display:block;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 15px 20px;
-    margin: 8px 0 32px;
-    border: 1px solid #838383;
-    border-radius: 4px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.form__fieldset{
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
-.form__button{
-    width: 100%;
-    border: none;
-    padding: 20px 0;
-    border-radius: 4px;
-    margin-bottom: 32px;
-    background-color: #1878DC;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color:#fff;
-
-}
-
-.form__label{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
+ @import url(../blocks/about.css);
+ 
+ @import url(../blocks/footer.css);
 
 
-.form__checkbox{
-    border-radius:2px;
-    width: 20px;
-    height: 20px;
-}
 
-.form__label_type_checkbox{
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
