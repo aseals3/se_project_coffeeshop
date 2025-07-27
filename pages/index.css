@@ -1,4 +1,4 @@
- @import url(../normalize.css);
+ @import url(../vendor/normalize.css);
  
  @import url(../blocks/page.css);
 
@@ -19,6 +19,7 @@
  @import url(../blocks/about.css);
  
  @import url(../blocks/footer.css);
+
 
 
 
