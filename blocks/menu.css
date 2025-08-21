@@ -6,6 +6,8 @@
     background-color: #fff;
     background-image: url(../images/background_menu.svg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .menu__title{
